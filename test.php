@@ -1,7 +1,8 @@
 <?php
 
 function test ($int){
-    return $int*$int;
+    $retval = $int*$int;
+    return $retval;
 }
 
 echo test(4);
