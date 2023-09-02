@@ -1,4 +1,5 @@
 <?php
+include 'func.php';
 
 function test ($int){
     $retval = $int*$int;
@@ -6,3 +7,4 @@ function test ($int){
 }
 
 echo test(4);
+echo Testing\test2(4);
