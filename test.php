@@ -1,10 +1,10 @@
 <?php
-include 'func.php';
+//include 'func.php';
 
-function test ($int){
-    $retval = $int*$int;
+function test ($int1, $int2){
+    $retval = $int1*$int2;
     return $retval;
 }
 
-echo test(4);
-echo Testing\test2(4);
+echo test(4,3);
+//echo Testing\test2(4);
